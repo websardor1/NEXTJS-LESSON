@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 NEXT.JS 5-DARS | ROUTING — SAHIFALAR YARATISH VA NAVIGATSIYA BILAN ISHLASH
 
-## Getting Started
+Assalomu alaykum, dasturchilar! 👋
 
-First, run the development server:
+NEXT.JS bo‘yicha to‘liq kursimizning **5-darsiga xush kelibsiz!**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Ushbu darsimizda Next.js frameworkining eng muhim imkoniyatlaridan biri — **Routing (sahifalar orasida navigatsiya)** bilan ishlashni o‘rganamiz.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Har qanday zamonaviy web sayt bir nechta sahifalardan tashkil topadi. Masalan, Home, About, Contact, Services va boshqa sahifalar. Foydalanuvchilar ushbu sahifalar orasida qulay harakatlanishi uchun Routing tizimidan foydalanamiz.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Next.js bizga App Router orqali sahifalarni juda oson va qulay yaratish imkoniyatini beradi. Bunda har bir papka va maxsus fayllar yordamida yangi sahifalar tashkil qilishimiz mumkin.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ushbu darsda Routing mavzusini noldan boshlab, oddiy misollar va amaliy kodlar yordamida batafsil o‘rganamiz.
 
-## Learn More
+📚 **USHBU DARSDА NIMALARNI O‘RGANAMIZ?**
 
-To learn more about Next.js, take a look at the following resources:
+✅ Next.js Routing nima?  
+✅ App Router bilan ishlash  
+✅ `app` papkasining tuzilishi  
+✅ `page.js` orqali sahifalar yaratish  
+✅ `layout.js` bilan ishlash  
+✅ Home Page yaratish  
+✅ About Page yaratish  
+✅ Contact Page yaratish  
+✅ Bir sahifadan boshqa sahifaga o'tish  
+✅ `Link` komponentidan foydalanish  
+✅ `next/link` modulini import qilish  
+✅ Dynamic Routes bilan ishlash  
+✅ `[id]` orqali dinamik sahifalar yaratish  
+✅ URL parametrlarini olish  
+✅ Nested Routes — ichma-ich Routing  
+✅ Loading va Not Found sahifalari  
+✅ `not-found.js` fayli bilan ishlash  
+✅ `loading.js` faylidan foydalanish  
+✅ `useRouter` yordamida navigatsiyani boshqarish  
+✅ Amaliy loyiha orqali Routing'ni mustahkamlash  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+💡 **NEXT.JS ROUTING NIMA UCHUN KERAK?**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Routing — bu web saytimizdagi sahifalar o‘rtasida harakatlanish tizimi.
 
-## Deploy on Vercel
+Masalan:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+🏠 `/` — Bosh sahifa  
+👤 `/about` — Biz haqimizda  
+📞 `/contact` — Bog‘lanish  
+🛍️ `/products` — Mahsulotlar  
+📦 `/products/1` — Bitta mahsulot haqida ma'lumot  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Next.js'da ushbu sahifalarni yaratish va boshqarish juda qulay. Har bir sahifa uchun alohida papka va `page.js` faylidan foydalanamiz.
+
+🎯 **USHBU DARС KIMLAR UCHUN?**
+
+- Next.js'ni noldan o‘rganayotgan dasturchilar;
+- React bilan ishlash tajribasiga ega bo‘lganlar;
+- Frontend Developer bo‘lishni istaganlar;
+- Zamonaviy web saytlar yaratmoqchi bo‘lganlar;
+- App Router va Dynamic Routing'ni o‘rganmoqchi bo‘lganlar.
+
+🔥 **AMALIYOT ORQALI O‘RGANAMIZ!**
+
+Dars davomida bir nechta sahifalardan tashkil topgan kichik loyiha yaratamiz. Sahifalar orasida navigatsiya o‘rnatamiz, dinamik URL'lar bilan ishlaymiz va Next.js Routing tizimining asosiy imkoniyatlarini amalda sinab ko‘ramiz.
+
+Maqsadimiz — Routing'ni shunchaki tushunish emas, balki haqiqiy loyihalarda mustaqil qo‘llay olish!
+
+🚀 Keling, birgalikda zamonaviy web dasturlashni o‘rganamiz!
+
+👍 Video sizga foydali bo‘lsa, LIKE bosishni unutmang!
+
+💬 Savollaringiz va takliflaringizni izohlarda yozib qoldiring.
+
+🔔 Kanalga OBUNA bo‘ling va qo‘ng‘iroqcha tugmasini bosing. Keyingi darslarni o'tkazib yubormang!
+
+---
+
+📌 **NEXT.JS TO‘LIQ KURSI**
+
+1️⃣ 1-dars — Next.js bilan tanishuv va loyiha yaratish  
+2️⃣ 2-dars — Next.js Routing asoslari  
+3️⃣ 3-dars — CSS bilan ishlash  
+4️⃣ 4-dars — Font bilan ishlash  
+5️⃣ 5-dars — Routing va Dynamic Routes  
+6️⃣ 6-dars — Final loyiha va Deployment (Vercel / Netlify)
+
+---
+
+#NextJS #NextJSUzbek #NextJSTutorial #NextJSKurs #Routing #AppRouter #DynamicRoutes #ReactJS #JavaScript #Frontend #WebDevelopment #Dasturlash #Programming #UzbekDeveloper #FrontendDeveloper
